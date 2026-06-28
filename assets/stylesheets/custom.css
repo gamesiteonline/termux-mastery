@@ -1,0 +1,311 @@
+:root {
+  --animation-duration: 0.6s;
+  --animation-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animated hero section */
+.animated-hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 1.5rem;
+  animation: fadeInUp 0.8s var(--animation-easing);
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  animation: fadeInUp 1s var(--animation-easing);
+}
+
+.badge {
+  background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Feature grid layout */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: var(--md-card-bg, rgba(255,255,255,0.05));
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s var(--animation-easing), box-shadow 0.3s var(--animation-easing);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  transform: scaleX(0);
+  transition: transform 0.3s var(--animation-easing);
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.feature-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--md-accent-fg-color);
+  transition: color 0.3s;
+}
+
+.feature-link:hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* TOC grid layout */
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.toc-card {
+  background: var(--md-card-bg, rgba(255,255,255,0.03));
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toc-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.toc-card h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+}
+
+.toc-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc-card li {
+  margin: 0.3rem 0;
+  font-size: 0.85rem;
+}
+
+.toc-card li a {
+  color: var(--md-default-fg-color--light);
+  transition: color 0.3s;
+}
+
+.toc-card li a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* Code block animations */
+.code-block {
+  animation: slideUp 0.6s var(--animation-easing);
+}
+
+/* CTA section */
+.cta-section {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--md-primary-fg-color--light), var(--md-accent-fg-color--light));
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+/* Scroll animation classes */
+[data-animate] {
+  opacity: 0;
+  transition: opacity 0.6s var(--animation-easing), transform 0.6s var(--animation-easing);
+}
+
+[data-animate="fade-in"] {
+  transform: translateY(20px);
+}
+
+[data-animate="slide-up"] {
+  transform: translateY(40px);
+}
+
+[data-animate].visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animated typing effect for code */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.typing-cursor::after {
+  content: '▊';
+  animation: blink 1s step-end infinite;
+  color: var(--md-primary-fg-color);
+}
+
+/* Example cards */
+.example-card {
+  background: var(--md-card-bg);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+  position: relative;
+}
+
+.example-card .example-number {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  background: var(--md-primary-fg-color);
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* Category headers */
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  margin: 1.5rem 0 1rem 0;
+}
+
+.category-header .count {
+  background: var(--md-primary-fg-color);
+  color: white;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+
+/* Progress bar for 100 examples */
+.progress-bar {
+  height: 6px;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.progress-bar .fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  border-radius: 3px;
+  transition: width 1s var(--animation-easing);
+}
+
+/* Responsive image */
+.terminal-screenshot {
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+}
+
+.terminal-screenshot:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Tabs for shell switching */
+.tabbed-set {
+  margin: 1rem 0;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .feature-card {
+  background: rgba(255,255,255,0.03);
+  border-color: rgba(255,255,255,0.1);
+}
+
+[data-md-color-scheme="slate"] .toc-card {
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(255,255,255,0.08);
+}
+
+[data-md-color-scheme="slate"] .cta-section {
+  background: linear-gradient(135deg, rgba(0,150,136,0.2), rgba(0,188,212,0.2));
+}

@@ -1,0 +1,161 @@
+site_name: Termux Mastery
+site_description: Complete guide to customizing Termux with 100+ examples for shells, autocomplete, theming, and automation
+site_url: https://gamesiteonline.github.io/termux-mastery/
+repo_url: https://github.com/gamesiteonline/termux-mastery
+repo_name: gamesiteonline/termux-mastery
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2024 Termux Mastery Contributors
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: JetBrains Mono
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+  - git-authors:
+      enabled: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/01-installation.md
+      - Basic Configuration: getting-started/02-basic-config.md
+      - Shell Basics: getting-started/03-shell-basics.md
+      - Package Management: getting-started/04-package-management.md
+  - Shells:
+      - Bash Basics: shells/01-bash-basics.md
+      - Zsh Setup: shells/02-zsh-setup.md
+      - Oh My Zsh: shells/03-oh-my-zsh.md
+      - Powerlevel10k: shells/04-powerlevel10k.md
+      - Zsh Autocomplete: shells/05-zsh-autocomplete.md
+      - Zsh Plugins: shells/06-zsh-plugins.md
+      - Fish Setup: shells/07-fish-setup.md
+      - Fish Autocomplete: shells/08-fish-autocomplete.md
+      - Starship Prompt: shells/09-starship-prompt.md
+      - Shell Comparison: shells/10-shell-comparison.md
+  - Autocomplete:
+      - Completion Basics: autocomplete/01-completion-basics.md
+      - Zsh Completions: autocomplete/02-zsh-completions.md
+      - Fish Completions: autocomplete/03-fish-completions.md
+      - Bash Completions: autocomplete/04-bash-completions.md
+      - Custom Completions: autocomplete/05-custom-completions.md
+      - Tool Completions: autocomplete/06-tool-completions.md
+      - 100 Zsh Examples: autocomplete/100-examples-zsh.md
+      - 100 Fish Examples: autocomplete/100-examples-fish.md
+      - 100 Bash Examples: autocomplete/100-examples-bash.md
+  - Theming:
+      - Termux Styling: theming/01-termux-styling.md
+      - Nerd Fonts: theming/02-nerd-fonts.md
+      - Color Schemes: theming/03-color-schemes.md
+      - Powerlevel10k Themes: theming/04-powerlevel10k-themes.md
+      - Starship Themes: theming/05-starship-themes.md
+      - 100 Theme Gallery: theming/100-theme-examples.md
+  - Automation:
+      - Termux API: automation/01-termux-api.md
+      - Termux Tasker: automation/02-termux-tasker.md
+      - Cron Jobs: automation/03-cron-jobs.md
+      - SSH Keys: automation/04-ssh-keys.md
+      - Git Hooks: automation/05-git-hooks.md
+      - Aliases & Functions: automation/06-aliases-functions.md
+      - Tmux Sessions: automation/07-tmux-sessions.md
+      - 100 Automation Examples: automation/100-automation-examples.md
+      - 100 Tasker Recipes: automation/100-tasker-recipes.md
+  - Productivity:
+      - Tmux: productivity/01-tmux.md
+      - Vim & Neovim: productivity/02-vim-neovim.md
+      - Git Workflow: productivity/03-git-workflow.md
+      - SSH Tunnels: productivity/04-ssh-tunnels.md
+      - Python & Node.js: productivity/05-python-node.md
+      - 100 Productivity Examples: productivity/100-productivity-examples.md
+  - Advanced:
+      - Dotfiles Management: advanced/01-dotfiles.md
+      - Bootstrap Script: advanced/02-bootstrap-script.md
+      - Building Packages: advanced/03-termux-packages.md
+      - Proot Distro: advanced/04-proot-distro.md
+      - Kernel Modules: advanced/05-kernel-modules.md
+  - Examples:
+      - 100 Cool Examples: examples/100-cool-examples.md
+      - Showcase: examples/showcase.md
+      - Gallery: examples/gallery.md
+  - Reference:
+      - Cheatsheet: reference/cheatsheet.md
+      - Troubleshooting: reference/troubleshooting.md
+      - Resources: reference/resources.md
+      - Glossary: reference/glossary.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gamesiteonline/termux-mastery
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/termux
+  generator: false
+  version:
+    provider: mike
+
+extra_css:
+  - assets/stylesheets/custom.css
+extra_javascript:
+  - assets/javascripts/animated-nav.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
