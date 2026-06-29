@@ -79,70 +79,70 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-      - Installation: getting-started/01-installation.md
-      - Basic Configuration: getting-started/02-basic-config.md
-      - Shell Basics: getting-started/03-shell-basics.md
-      - Package Management: getting-started/04-package-management.md
+      - Installation: getting-started/installation/index.md
+      - Basic Configuration: getting-started/basic-config/index.md
+      - Shell Basics: getting-started/shell-basics/index.md
+      - Package Management: getting-started/package-management/index.md
   - Shells:
-      - Bash Basics: shells/01-bash-basics.md
-      - Zsh Setup: shells/02-zsh-setup.md
-      - Oh My Zsh: shells/03-oh-my-zsh.md
-      - Powerlevel10k: shells/04-powerlevel10k.md
-      - Zsh Autocomplete: shells/05-zsh-autocomplete.md
-      - Zsh Plugins: shells/06-zsh-plugins.md
-      - Fish Setup: shells/07-fish-setup.md
-      - Fish Autocomplete: shells/08-fish-autocomplete.md
-      - Starship Prompt: shells/09-starship-prompt.md
-      - Shell Comparison: shells/10-shell-comparison.md
+      - Bash Basics: shells/bash-basics/index.md
+      - Zsh Setup: shells/zsh-setup/index.md
+      - Oh My Zsh: shells/oh-my-zsh/index.md
+      - Powerlevel10k: shells/powerlevel10k/index.md
+      - Zsh Autocomplete: shells/zsh-autocomplete/index.md
+      - Zsh Plugins: shells/zsh-plugins/index.md
+      - Fish Setup: shells/fish-setup/index.md
+      - Fish Autocomplete: shells/fish-autocomplete/index.md
+      - Starship Prompt: shells/starship-prompt/index.md
+      - Shell Comparison: shells/shell-comparison/index.md
   - Autocomplete:
-      - Completion Basics: autocomplete/01-completion-basics.md
-      - Zsh Completions: autocomplete/02-zsh-completions.md
-      - Fish Completions: autocomplete/03-fish-completions.md
-      - Bash Completions: autocomplete/04-bash-completions.md
-      - Custom Completions: autocomplete/05-custom-completions.md
-      - Tool Completions: autocomplete/06-tool-completions.md
-      - 100 Zsh Examples: autocomplete/100-examples-zsh.md
-      - 100 Fish Examples: autocomplete/100-examples-fish.md
-      - 100 Bash Examples: autocomplete/100-examples-bash.md
+      - Completion Basics: autocomplete/completion-basics/index.md
+      - Zsh Completions: autocomplete/zsh-completions/index.md
+      - Fish Completions: autocomplete/fish-completions/index.md
+      - Bash Completions: autocomplete/bash-completions/index.md
+      - Custom Completions: autocomplete/custom-completions/index.md
+      - Tool Completions: autocomplete/tool-completions/index.md
+      - 100 Zsh Examples: autocomplete/examples-zsh/index.md
+      - 100 Fish Examples: autocomplete/examples-fish/index.md
+      - 100 Bash Examples: autocomplete/examples-bash/index.md
   - Theming:
-      - Termux Styling: theming/01-termux-styling.md
-      - Nerd Fonts: theming/02-nerd-fonts.md
-      - Color Schemes: theming/03-color-schemes.md
-      - Powerlevel10k Themes: theming/04-powerlevel10k-themes.md
-      - Starship Themes: theming/05-starship-themes.md
-      - 100 Theme Gallery: theming/100-theme-examples.md
+      - Termux Styling: theming/termux-styling/index.md
+      - Nerd Fonts: theming/nerd-fonts/index.md
+      - Color Schemes: theming/color-schemes/index.md
+      - Powerlevel10k Themes: theming/powerlevel10k-themes/index.md
+      - Starship Themes: theming/starship-themes/index.md
+      - 100 Theme Gallery: theming/theme-examples/index.md
   - Automation:
-      - Termux API: automation/01-termux-api.md
-      - Termux Tasker: automation/02-termux-tasker.md
-      - Cron Jobs: automation/03-cron-jobs.md
-      - SSH Keys: automation/04-ssh-keys.md
-      - Git Hooks: automation/05-git-hooks.md
-      - Aliases & Functions: automation/06-aliases-functions.md
-      - Tmux Sessions: automation/07-tmux-sessions.md
-      - 100 Automation Examples: automation/100-automation-examples.md
-      - 100 Tasker Recipes: automation/100-tasker-recipes.md
+      - Termux API: automation/termux-api/index.md
+      - Termux Tasker: automation/termux-tasker/index.md
+      - Cron Jobs: automation/cron-jobs/index.md
+      - SSH Keys: automation/ssh-keys/index.md
+      - Git Hooks: automation/git-hooks/index.md
+      - Aliases & Functions: automation/aliases-functions/index.md
+      - Tmux Sessions: automation/tmux-sessions/index.md
+      - 100 Automation Examples: automation/automation-examples/index.md
+      - 100 Tasker Recipes: automation/tasker-recipes/index.md
   - Productivity:
-      - Tmux: productivity/01-tmux.md
-      - Vim & Neovim: productivity/02-vim-neovim.md
-      - Git Workflow: productivity/03-git-workflow.md
-      - SSH Tunnels: productivity/04-ssh-tunnels.md
-      - Python & Node.js: productivity/05-python-node.md
-      - 100 Productivity Examples: productivity/100-productivity-examples.md
+      - Tmux: productivity/tmux/index.md
+      - Vim & Neovim: productivity/vim-neovim/index.md
+      - Git Workflow: productivity/git-workflow/index.md
+      - SSH Tunnels: productivity/ssh-tunnels/index.md
+      - Python & Node.js: productivity/python-node/index.md
+      - 100 Productivity Examples: productivity/productivity-examples/index.md
   - Advanced:
-      - Dotfiles Management: advanced/01-dotfiles.md
-      - Bootstrap Script: advanced/02-bootstrap-script.md
-      - Building Packages: advanced/03-termux-packages.md
-      - Proot Distro: advanced/04-proot-distro.md
-      - Kernel Modules: advanced/05-kernel-modules.md
+      - Dotfiles Management: advanced/dotfiles/index.md
+      - Bootstrap Script: advanced/bootstrap-script/index.md
+      - Building Packages: advanced/termux-packages/index.md
+      - Proot Distro: advanced/proot-distro/index.md
   - Examples:
-      - 100 Cool Examples: examples/100-cool-examples.md
-      - Showcase: examples/showcase.md
-      - Gallery: examples/gallery.md
+      - 100 Cool Examples: examples/cool-examples/index.md
+      - Showcase: examples/showcase/index.md
+      - Gallery: examples/gallery/index.md
+      - Usage: examples/usage/index.md
   - Reference:
-      - Cheatsheet: reference/cheatsheet.md
-      - Troubleshooting: reference/troubleshooting.md
-      - Resources: reference/resources.md
-      - Glossary: reference/glossary.md
+      - Cheatsheet: reference/cheatsheet/index.md
+      - Troubleshooting: reference/troubleshooting/index.md
+      - Resources: reference/resources/index.md
+      - Glossary: reference/glossary/index.md
 
 extra:
   social:

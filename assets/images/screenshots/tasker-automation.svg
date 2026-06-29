@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="tasker-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#1a1a2e" stroke="#444" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#2d2d3d"/>
+  <rect x="0" y="14" width="800" height="14" fill="#2d2d3d"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#aaa" font-size="11" font-family="monospace" text-anchor="middle">Tasker — Termux Automation</text>
+
+  <g clip-path="url(#tasker-clip)">
+    <!-- App header -->
+    <rect x="0" y="28" width="800" height="40" fill="#2a2a3e"/>
+    <text x="16" y="54" fill="#cdd6f4" font-size="15" font-family="monospace">&#x2190;  Profiles</text>
+
+    <!-- Profile card -->
+    <rect x="8" y="76" width="784" height="60" rx="6" fill="#313244"/>
+    <text x="20" y="96" fill="#a6e3a1" font-size="14" font-family="monospace">&#x25B6; Night Backup</text>
+    <text x="20" y="116" fill="#6c7086" font-size="11" font-family="monospace">Time: 02:00 - 03:00</text>
+    <text x="200" y="116" fill="#89b4fa" font-size="11" font-family="monospace">Wi-Fi connected</text>
+
+    <!-- Task entries -->
+    <rect x="16" y="144" width="768" height="36" rx="4" fill="#1e1e30"/>
+    <text x="28" y="168" fill="#cdd6f4" font-size="13" font-family="monospace">1. Run Termux Script</text>
+    <text x="680" y="168" fill="#f38ba8" font-size="11" font-family="monospace">backup.sh</text>
+
+    <rect x="16" y="184" width="768" height="36" rx="4" fill="#1e1e30"/>
+    <text x="28" y="208" fill="#cdd6f4" font-size="13" font-family="monospace">2. Wait</text>
+    <text x="680" y="208" fill="#f5c2e7" font-size="11" font-family="monospace">30 seconds</text>
+
+    <rect x="16" y="224" width="768" height="36" rx="4" fill="#1e1e30"/>
+    <text x="28" y="248" fill="#cdd6f4" font-size="13" font-family="monospace">3. Run Termux Script</text>
+    <text x="680" y="248" fill="#f38ba8" font-size="11" font-family="monospace">sync.sh</text>
+
+    <rect x="16" y="264" width="768" height="36" rx="4" fill="#1e1e30"/>
+    <text x="28" y="288" fill="#cdd6f4" font-size="13" font-family="monospace">4. Notify</text>
+    <text x="680" y="288" fill="#a6e3a1" font-size="11" font-family="monospace">Backup complete</text>
+
+    <!-- Script editor section -->
+    <rect x="8" y="312" width="784" height="126" rx="6" fill="#0d1117"/>
+    <text x="16" y="332" fill="#89b4fa" font-size="12" font-family="monospace"># backup.sh — Termux script</text>
+    <text x="16" y="352" fill="#abb2bf" font-size="12" font-family="monospace">#!/data/data/com.termux/files/usr/bin/bash</text>
+    <text x="16" y="372" fill="#98c379" font-size="12" font-family="monospace">BACKUP_DIR="/sdcard/backups/$(date +%Y%m%d)"</text>
+    <text x="16" y="392" fill="#61afef" font-size="12" font-family="monospace">mkdir -p "$BACKUP_DIR"</text>
+    <text x="16" y="412" fill="#e5c07b" font-size="12" font-family="monospace">cp -r ~/storage/shared/Documents/* "$BACKUP_DIR/"</text>
+    <text x="16" y="432" fill="#c678dd" font-size="12" font-family="monospace">termux-notification</text>
+    <text x="144" y="432" fill="#abb2bf" font-size="12" font-family="monospace">\</text>
+    <text x="156" y="432" fill="#98c379" font-size="12" font-family="monospace">-t "Backup Complete"</text>
+
+    <!-- Nav bar at bottom -->
+    <rect x="0" y="438" width="800" height="12" fill="#2a2a3e"/>
+  </g>
+</svg>

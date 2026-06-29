@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="git-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#161b22"/>
+  <rect x="0" y="14" width="800" height="14" fill="#161b22"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">git log — git workflow</text>
+
+  <g clip-path="url(#git-clip)">
+    <!-- Prompt -->
+    <rect x="8" y="36" width="480" height="22" rx="4" fill="#1f2937"/>
+    <text x="16" y="51" fill="#8b5cf6" font-size="13" font-family="monospace">   ~/dev/my-project</text>
+    <text x="140" y="51" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="148" y="51" fill="#10b981" font-size="13" font-family="monospace">   main</text>
+
+    <text x="8" y="76" fill="#f5f5f5" font-size="13" font-family="monospace">git log --oneline --graph --all -15</text>
+
+    <!-- Git graph -->
+    <!-- * a1b2c3d (HEAD -> main) feat: add user authentication -->
+    <text x="8" y="100" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="100" fill="#a1b2c3" font-size="12" font-family="monospace">a1b2c3d</text>
+    <text x="80" y="100" fill="#6c7086" font-size="12" font-family="monospace">(HEAD -&gt; main)</text>
+    <text x="180" y="100" fill="#f5f5f5" font-size="12" font-family="monospace">feat: add user authentication</text>
+
+    <!-- * e4f5g6h (origin/main) merge: pull request #42 -->
+    <text x="8" y="120" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="120" fill="#a1b2c3" font-size="12" font-family="monospace">e4f5g6h</text>
+    <text x="80" y="120" fill="#6c7086" font-size="12" font-family="monospace">(origin/main)</text>
+    <text x="180" y="120" fill="#f5f5f5" font-size="12" font-family="monospace">Merge pull request #42 from feature/auth</text>
+
+    <!-- |\ -->
+    <text x="8" y="140" fill="#22d3ee" font-size="13" font-family="monospace">|</text>
+    <text x="16" y="140" fill="#f59e0b" font-size="13" font-family="monospace">\</text>
+
+    <!-- | * i7j8k9l (feature/auth) implement JWT tokens -->
+    <text x="8" y="160" fill="#22d3ee" font-size="13" font-family="monospace">|</text>
+    <text x="20" y="160" fill="#f59e0b" font-size="13" font-family="monospace">*</text>
+    <text x="32" y="160" fill="#a1b2c3" font-size="12" font-family="monospace">i7j8k9l</text>
+    <text x="92" y="160" fill="#6c7086" font-size="12" font-family="monospace">(feature/auth)</text>
+    <text x="192" y="160" fill="#f5f5f5" font-size="12" font-family="monospace">implement JWT token validation</text>
+
+    <!-- | * m0n1o2p add login page -->
+    <text x="8" y="180" fill="#22d3ee" font-size="13" font-family="monospace">|</text>
+    <text x="20" y="180" fill="#f59e0b" font-size="13" font-family="monospace">*</text>
+    <text x="32" y="180" fill="#a1b2c3" font-size="12" font-family="monospace">m0n1o2p</text>
+    <text x="92" y="180" fill="#f5f5f5" font-size="12" font-family="monospace">add login page component</text>
+
+    <!-- | * q3r4s5t add auth context -->
+    <text x="8" y="200" fill="#22d3ee" font-size="13" font-family="monospace">|</text>
+    <text x="20" y="200" fill="#f59e0b" font-size="13" font-family="monospace">*</text>
+    <text x="32" y="200" fill="#a1b2c3" font-size="12" font-family="monospace">q3r4s5t</text>
+    <text x="92" y="200" fill="#f5f5f5" font-size="12" font-family="monospace">add auth context provider</text>
+
+    <!-- |/ -->
+    <text x="8" y="220" fill="#22d3ee" font-size="13" font-family="monospace">|/</text>
+
+    <!-- * u6v7w8x fix: resolve layout shift -->
+    <text x="8" y="240" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="240" fill="#a1b2c3" font-size="12" font-family="monospace">u6v7w8x</text>
+    <text x="80" y="240" fill="#f5f5f5" font-size="12" font-family="monospace">fix: resolve layout shift on mobile</text>
+
+    <!-- * y9z0a1b refactor: extract API client -->
+    <text x="8" y="260" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="260" fill="#a1b2c3" font-size="12" font-family="monospace">y9z0a1b</text>
+    <text x="80" y="260" fill="#f5f5f5" font-size="12" font-family="monospace">refactor: extract API client module</text>
+
+    <!-- * c2d3e4f (tag: v1.0.0) chore: release v1.0.0 -->
+    <text x="8" y="280" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="280" fill="#a1b2c3" font-size="12" font-family="monospace">c2d3e4f</text>
+    <text x="80" y="280" fill="#e5c07b" font-size="12" font-family="monospace">(tag: v1.0.0)</text>
+    <text x="180" y="280" fill="#f5f5f5" font-size="12" font-family="monospace">chore: release v1.0.0</text>
+
+    <!-- * g5h6i7j docs: update README -->
+    <text x="8" y="300" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="300" fill="#a1b2c3" font-size="12" font-family="monospace">g5h6i7j</text>
+    <text x="80" y="300" fill="#f5f5f5" font-size="12" font-family="monospace">docs: update README with setup guide</text>
+
+    <!-- * k8l9m0n (develop) feat: add dark mode -->
+    <text x="8" y="320" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="320" fill="#a1b2c3" font-size="12" font-family="monospace">k8l9m0n</text>
+    <text x="80" y="320" fill="#6c7086" font-size="12" font-family="monospace">(develop)</text>
+    <text x="156" y="320" fill="#f5f5f5" font-size="12" font-family="monospace">feat: add dark mode support</text>
+
+    <!-- * p1q2r3s test: add unit tests -->
+    <text x="8" y="340" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="340" fill="#a1b2c3" font-size="12" font-family="monospace">p1q2r3s</text>
+    <text x="80" y="340" fill="#f5f5f5" font-size="12" font-family="monospace">test: add unit tests for utils</text>
+
+    <!-- * t4u5v6w style: format code -->
+    <text x="8" y="360" fill="#22d3ee" font-size="13" font-family="monospace">*</text>
+    <text x="20" y="360" fill="#a1b2c3" font-size="12" font-family="monospace">t4u5v6w</text>
+    <text x="80" y="360" fill="#f5f5f5" font-size="12" font-family="monospace">style: format code with prettier</text>
+
+    <!-- Bottom legend -->
+    <rect x="8" y="388" width="400" height="50" rx="4" fill="#1f2937" stroke="#30363d" stroke-width="1"/>
+    <text x="16" y="408" fill="#6c7086" font-size="11" font-family="monospace">Press</text>
+    <text x="48" y="408" fill="#22d3ee" font-size="11" font-family="monospace">q</text>
+    <text x="60" y="408" fill="#6c7086" font-size="11" font-family="monospace">to quit. Use</text>
+    <text x="132" y="408" fill="#22d3ee" font-size="11" font-family="monospace">↑</text>
+    <text x="144" y="408" fill="#22d3ee" font-size="11" font-family="monospace">↓</text>
+    <text x="156" y="408" fill="#6c7086" font-size="11" font-family="monospace">to browse commits.</text>
+    <text x="16" y="428" fill="#6c7086" font-size="11" font-family="monospace">--graph --oneline --all: 15 commits</text>
+  </g>
+</svg>

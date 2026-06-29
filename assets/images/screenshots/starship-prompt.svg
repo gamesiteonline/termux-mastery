@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="starship-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#161b22"/>
+  <rect x="0" y="14" width="800" height="14" fill="#161b22"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">starship</text>
+
+  <g clip-path="url(#starship-clip)">
+    <!-- Starship prompt example 1: simple directory -->
+    <rect x="8" y="36" width="280" height="24" rx="4" fill="#1f2937"/>
+    <text x="16" y="52" fill="#8b5cf6" font-size="13" font-family="monospace">  ~</text>
+    <text x="36" y="52" fill="#f59e0b" font-size="13" font-family="monospace"> </text>
+    <text x="8" y="72" fill="#8b5cf6" font-size="13" font-family="monospace">  ~</text>
+    <text x="28" y="72" fill="#f59e0b" font-size="13" font-family="monospace"> </text>
+
+    <text x="8" y="96" fill="#8b5cf6" font-size="13" font-family="monospace">  cd projects/my-app</text>
+
+    <!-- Prompt with git branch + node + python -->
+    <rect x="8" y="116" width="600" height="24" rx="4" fill="#1f2937"/>
+    <text x="16" y="132" fill="#8b5cf6" font-size="13" font-family="monospace">  ~/projects/my-app</text>
+    <text x="140" y="132" fill="#f59e0b" font-size="13" font-family="monospace"> </text>
+    <text x="148" y="132" fill="#10b981" font-size="13" font-family="monospace">   main</text>
+    <text x="194" y="132" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="202" y="132" fill="#22d3ee" font-size="13" font-family="monospace">  via  v18.16.0</text>
+    <text x="290" y="132" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="298" y="132" fill="#f59e0b" font-size="13" font-family="monospace">  via 🐍 v3.11.3</text>
+
+    <text x="8" y="160" fill="#8b5cf6" font-size="13" font-family="monospace">  ls</text>
+    <text x="8" y="180" fill="#22d3ee" font-size="13" font-family="monospace">  README.md      package.json</text>
+    <text x="8" y="200" fill="#22d3ee" font-size="13" font-family="monospace">  src/           public/</text>
+    <text x="8" y="220" fill="#f59e0b" font-size="13" font-family="monospace">  node_modules/</text>
+
+    <!-- Prompt with Nerd Font icons -->
+    <rect x="8" y="244" width="680" height="24" rx="4" fill="#1f2937"/>
+    <text x="16" y="260" fill="#8b5cf6" font-size="13" font-family="monospace">   ~/projects/my-app/src</text>
+    <text x="164" y="260" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="172" y="260" fill="#10b981" font-size="13" font-family="monospace">   feature/new-ui</text>
+    <text x="254" y="260" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="262" y="260" fill="#22d3ee" font-size="13" font-family="monospace">  via  v18.16.0</text>
+    <text x="350" y="260" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="358" y="260" fill="#ef4444" font-size="13" font-family="monospace">  ✗ 3</text>
+
+    <text x="8" y="288" fill="#8b5cf6" font-size="13" font-family="monospace">  npm test</text>
+
+    <text x="8" y="312" fill="#6c7086" font-size="12" font-family="monospace">  PASS src/components/Button.test.tsx</text>
+    <text x="8" y="328" fill="#6c7086" font-size="12" font-family="monospace">  PASS src/utils/helpers.test.ts</text>
+    <text x="8" y="344" fill="#22d3ee" font-size="12" font-family="monospace">  Tests: 12 passed, 12 total</text>
+
+    <!-- Prompt again after tests -->
+    <rect x="8" y="364" width="680" height="24" rx="4" fill="#1f2937"/>
+    <text x="16" y="380" fill="#8b5cf6" font-size="13" font-family="monospace">   ~/projects/my-app/src</text>
+    <text x="164" y="380" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="172" y="380" fill="#10b981" font-size="13" font-family="monospace">   feature/new-ui</text>
+    <text x="254" y="380" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="262" y="380" fill="#22d3ee" font-size="13" font-family="monospace">  via  v18.16.0</text>
+    <text x="350" y="380" fill="#f59e0b" font-size="13" font-family="monospace">  </text>
+    <text x="358" y="380" fill="#22d3ee" font-size="13" font-family="monospace">  ✓</text>
+
+    <rect x="380" y="386" width="8" height="15" fill="#8b5cf6" opacity="0.7"/>
+  </g>
+</svg>

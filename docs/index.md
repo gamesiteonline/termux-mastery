@@ -21,42 +21,42 @@
   <div class="feature-icon">⚡</div>
   <h3>Instant Autocomplete</h3>
   <p>Tab completion that reads your mind — git, docker, npm, python, and 100+ more commands with zero effort.</p>
-  <a href="autocomplete/100-examples-zsh/" class="feature-link">See 100 examples →</a>
+  <a href="autocomplete/examples-zsh/" class="feature-link">See 100 examples →</a>
 </div>
 
 <div class="feature-card" data-animate="fade-in">
   <div class="feature-icon">🎨</div>
   <h3>Stunning Themes</h3>
   <p>Powerlevel10k, Starship, Nerd Fonts. Make your terminal look like a cyberpunk dashboard.</p>
-  <a href="theming/100-theme-examples/" class="feature-link">Browse theme gallery →</a>
+  <a href="theming/theme-examples/" class="feature-link">Browse theme gallery →</a>
 </div>
 
 <div class="feature-card" data-animate="fade-in">
   <div class="feature-icon">🤖</div>
   <h3>Android Automation</h3>
   <p>Termux + Tasker = unlimited automation. Trigger scripts via SMS, location, battery, or time.</p>
-  <a href="automation/100-tasker-recipes/" class="feature-link">Explore recipes →</a>
+  <a href="automation/tasker-recipes/" class="feature-link">Explore recipes →</a>
 </div>
 
 <div class="feature-card" data-animate="fade-in">
   <div class="feature-icon">🐟</div>
   <h3>Fish Shell Mastery</h3>
   <p>Built-in autosuggestions, web-based config, and the cleanest scripting syntax of any shell.</p>
-  <a href="shells/08-fish-autocomplete/" class="feature-link">Learn Fish →</a>
+  <a href="shells/fish-autocomplete/" class="feature-link">Learn Fish →</a>
 </div>
 
 <div class="feature-card" data-animate="fade-in">
   <div class="feature-icon">💻</div>
   <h3>Productivity Workflows</h3>
   <p>Tmux sessions, Neovim IDE, Git superpowers, SSH tunnels — all on your phone.</p>
-  <a href="productivity/01-tmux/" class="feature-link">Boost productivity →</a>
+  <a href="productivity/tmux/" class="feature-link">Boost productivity →</a>
 </div>
 
 <div class="feature-card" data-animate="fade-in">
   <div class="feature-icon">📦</div>
   <h3>100 Examples Per Topic</h3>
   <p>Every section has 100+ real-world, copy-paste ready examples organized by category.</p>
-  <a href="examples/100-cool-examples/" class="feature-link">View all examples →</a>
+  <a href="examples/cool-examples/" class="feature-link">View all examples →</a>
 </div>
 
 </div>
@@ -91,62 +91,62 @@ curl -fsSL https://raw.githubusercontent.com/gamesiteonline/termux-mastery/main/
 <div class="toc-grid">
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="getting-started/01-installation/">📱 Getting Started</a></h4>
+  <h4><a href="getting-started/installation/">📱 Getting Started</a></h4>
   <ul>
-    <li><a href="getting-started/01-installation/">Installation</a></li>
-    <li><a href="getting-started/02-basic-config/">Basic Configuration</a></li>
-    <li><a href="getting-started/03-shell-basics/">Shell Basics</a></li>
-    <li><a href="getting-started/04-package-management/">Package Management</a></li>
+    <li><a href="getting-started/installation/">Installation</a></li>
+    <li><a href="getting-started/basic-config/">Basic Configuration</a></li>
+    <li><a href="getting-started/shell-basics/">Shell Basics</a></li>
+    <li><a href="getting-started/package-management/">Package Management</a></li>
   </ul>
 </div>
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="shells/01-bash-basics/">🐚 Shells</a></h4>
+  <h4><a href="shells/bash-basics/">🐚 Shells</a></h4>
   <ul>
-    <li><a href="shells/02-zsh-setup/">Zsh Setup</a></li>
-    <li><a href="shells/03-oh-my-zsh/">Oh My Zsh</a></li>
-    <li><a href="shells/04-powerlevel10k/">Powerlevel10k</a></li>
-    <li><a href="shells/07-fish-setup/">Fish Shell</a></li>
-    <li><a href="shells/09-starship-prompt/">Starship Prompt</a></li>
+    <li><a href="shells/zsh-setup/">Zsh Setup</a></li>
+    <li><a href="shells/oh-my-zsh/">Oh My Zsh</a></li>
+    <li><a href="shells/powerlevel10k/">Powerlevel10k</a></li>
+    <li><a href="shells/fish-setup/">Fish Shell</a></li>
+    <li><a href="shells/starship-prompt/">Starship Prompt</a></li>
   </ul>
 </div>
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="autocomplete/01-completion-basics/">🔮 Autocomplete</a></h4>
+  <h4><a href="autocomplete/completion-basics/">🔮 Autocomplete</a></h4>
   <ul>
-    <li><a href="autocomplete/100-examples-zsh/">100 Zsh Examples</a></li>
-    <li><a href="autocomplete/100-examples-fish/">100 Fish Examples</a></li>
-    <li><a href="autocomplete/100-examples-bash/">100 Bash Examples</a></li>
+    <li><a href="autocomplete/examples-zsh/">100 Zsh Examples</a></li>
+    <li><a href="autocomplete/examples-fish/">100 Fish Examples</a></li>
+    <li><a href="autocomplete/examples-bash/">100 Bash Examples</a></li>
   </ul>
 </div>
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="theming/01-termux-styling/">🎨 Theming</a></h4>
+  <h4><a href="theming/termux-styling/">🎨 Theming</a></h4>
   <ul>
-    <li><a href="theming/02-nerd-fonts/">Nerd Fonts</a></li>
-    <li><a href="theming/03-color-schemes/">Color Schemes</a></li>
-    <li><a href="theming/05-starship-themes/">Starship Themes</a></li>
-    <li><a href="theming/100-theme-examples/">100 Theme Gallery</a></li>
+    <li><a href="theming/nerd-fonts/">Nerd Fonts</a></li>
+    <li><a href="theming/color-schemes/">Color Schemes</a></li>
+    <li><a href="theming/starship-themes/">Starship Themes</a></li>
+    <li><a href="theming/theme-examples/">100 Theme Gallery</a></li>
   </ul>
 </div>
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="automation/01-termux-api/">🤖 Automation</a></h4>
+  <h4><a href="automation/termux-api/">🤖 Automation</a></h4>
   <ul>
-    <li><a href="automation/02-termux-tasker/">Termux:Tasker</a></li>
-    <li><a href="automation/03-cron-jobs/">Cron Jobs</a></li>
-    <li><a href="automation/100-automation-examples/">100 Automation Examples</a></li>
-    <li><a href="automation/100-tasker-recipes/">100 Tasker Recipes</a></li>
+    <li><a href="automation/termux-tasker/">Termux:Tasker</a></li>
+    <li><a href="automation/cron-jobs/">Cron Jobs</a></li>
+    <li><a href="automation/automation-examples/">100 Automation Examples</a></li>
+    <li><a href="automation/tasker-recipes/">100 Tasker Recipes</a></li>
   </ul>
 </div>
 
 <div class="toc-card" data-animate="fade-in">
-  <h4><a href="productivity/01-tmux/">💻 Productivity</a></h4>
+  <h4><a href="productivity/tmux/">💻 Productivity</a></h4>
   <ul>
-    <li><a href="productivity/02-vim-neovim/">Vim & Neovim</a></li>
-    <li><a href="productivity/03-git-workflow/">Git Workflow</a></li>
-    <li><a href="productivity/04-ssh-tunnels/">SSH Tunnels</a></li>
-    <li><a href="productivity/100-productivity-examples/">100 Tips</a></li>
+    <li><a href="productivity/vim-neovim/">Vim & Neovim</a></li>
+    <li><a href="productivity/git-workflow/">Git Workflow</a></li>
+    <li><a href="productivity/ssh-tunnels/">SSH Tunnels</a></li>
+    <li><a href="productivity/productivity-examples/">100 Tips</a></li>
   </ul>
 </div>
 
@@ -176,6 +176,6 @@ If this guide helps you, consider:
 
 <div class="cta-section" data-animate="fade-in">
   <h2>Ready to transform your Termux?</h2>
-  <p>Start with <a href="getting-started/01-installation/">Getting Started →</a></p>
-  <p>Or jump straight to <a href="autocomplete/100-examples-zsh/">100 Zsh Autocomplete Examples →</a></p>
+  <p>Start with <a href="getting-started/installation/">Getting Started →</a></p>
+  <p>Or jump straight to <a href="autocomplete/examples-zsh/">100 Zsh Autocomplete Examples →</a></p>
 </div>

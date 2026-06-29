@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="ssh-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#1e1e2e" stroke="#444" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#2e2e3e"/>
+  <rect x="0" y="14" width="800" height="14" fill="#2e2e3e"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#aaa" font-size="11" font-family="monospace" text-anchor="middle">ssh — key setup</text>
+
+  <g clip-path="url(#ssh-clip)">
+    <!-- Prompt -->
+    <rect x="8" y="36" width="280" height="22" rx="4" fill="#313244"/>
+    <text x="16" y="51" fill="#89b4fa" font-size="13" font-family="monospace">  ~</text>
+    <text x="32" y="51" fill="#6c7086" font-size="13" font-family="monospace"></text>
+
+    <text x="8" y="80" fill="#cdd6f4" font-size="13" font-family="monospace">ssh-keygen -t ed25519 -C "user@phone"</text>
+    <text x="8" y="100" fill="#6c7086" font-size="12" font-family="monospace">Generating public/private ed25519 key pair.</text>
+    <text x="8" y="116" fill="#f5c2e7" font-size="12" font-family="monospace">Enter file in which to save the key</text>
+    <text x="260" y="116" fill="#6c7086" font-size="12" font-family="monospace">(/data/data/com.termux/files/home/.ssh/id_ed25519):</text>
+    <text x="8" y="136" fill="#cdd6f4" font-size="13" font-family="monospace">[Enter]</text>
+    <text x="8" y="156" fill="#a6e3a1" font-size="12" font-family="monospace">Your identification has been saved in</text>
+    <text x="8" y="172" fill="#a6e3a1" font-size="12" font-family="monospace">/data/data/com.termux/files/home/.ssh/id_ed25519</text>
+    <text x="8" y="192" fill="#a6e3a1" font-size="12" font-family="monospace">Your public key has been saved in</text>
+    <text x="8" y="208" fill="#a6e3a1" font-size="12" font-family="monospace">/data/data/com.termux/files/home/.ssh/id_ed25519.pub</text>
+    <text x="8" y="228" fill="#89b4fa" font-size="12" font-family="monospace">The key fingerprint is:</text>
+    <text x="8" y="244" fill="#f5c2e7" font-size="12" font-family="monospace">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx user@phone</text>
+
+    <!-- Second command -->
+    <rect x="8" y="268" width="280" height="22" rx="4" fill="#313244"/>
+    <text x="16" y="283" fill="#89b4fa" font-size="13" font-family="monospace">  ~</text>
+    <text x="32" y="283" fill="#6c7086" font-size="13" font-family="monospace"></text>
+
+    <text x="8" y="312" fill="#cdd6f4" font-size="13" font-family="monospace">cat .ssh/id_ed25519.pub</text>
+    <text x="8" y="332" fill="#e5c07b" font-size="12" font-family="monospace">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI...</text>
+    <text x="8" y="348" fill="#e5c07b" font-size="12" font-family="monospace">OxL3... user@phone</text>
+
+    <!-- Third command -->
+    <rect x="8" y="372" width="280" height="22" rx="4" fill="#313244"/>
+    <text x="16" y="387" fill="#89b4fa" font-size="13" font-family="monospace">  ~</text>
+    <text x="32" y="387" fill="#6c7086" font-size="13" font-family="monospace"></text>
+
+    <text x="8" y="416" fill="#cdd6f4" font-size="13" font-family="monospace">ssh -T git@github.com</text>
+    <text x="8" y="436" fill="#a6e3a1" font-size="13" font-family="monospace">Hi username! You've successfully authenticated.</text>
+  </g>
+</svg>

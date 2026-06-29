@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="styling-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#1a1a2e" stroke="#444" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#2d2d3d"/>
+  <rect x="0" y="14" width="800" height="14" fill="#2d2d3d"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#aaa" font-size="11" font-family="monospace" text-anchor="middle">Termux:Styling</text>
+
+  <g clip-path="url(#styling-clip)">
+    <!-- App bar -->
+    <rect x="0" y="28" width="800" height="36" fill="#2d2d3d"/>
+    <text x="16" y="52" fill="#cdd6f4" font-size="15" font-family="monospace">&#x2190;  Termux:Styling</text>
+
+    <!-- Color Schemes section -->
+    <text x="16" y="84" fill="#89b4fa" font-size="13" font-family="monospace">COLOR SCHEMES</text>
+
+    <!-- Selected scheme highlighted -->
+    <rect x="8" y="94" width="784" height="36" rx="4" fill="#313244"/>
+    <text x="24" y="116" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Dark (default)</text>
+    <text x="740" y="116" fill="#a6e3a1" font-size="12" font-family="monospace">ACTIVE</text>
+
+    <rect x="8" y="134" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="156" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Dracula</text>
+
+    <rect x="8" y="174" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="196" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Nord</text>
+
+    <rect x="8" y="214" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="236" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Tokyo Night</text>
+
+    <rect x="8" y="254" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="276" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Gruvbox Dark</text>
+
+    <rect x="8" y="294" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="316" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Solarized Dark</text>
+
+    <rect x="8" y="334" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="356" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; One Dark</text>
+
+    <!-- Fonts section -->
+    <text x="16" y="388" fill="#89b4fa" font-size="13" font-family="monospace">FONTS</text>
+    <rect x="8" y="398" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="420" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; JetBrains Mono (default)</text>
+    <text x="740" y="420" fill="#a6e3a1" font-size="12" font-family="monospace">ACTIVE</text>
+
+    <rect x="8" y="438" width="784" height="36" rx="4" fill="transparent"/>
+    <text x="24" y="460" fill="#cdd6f4" font-size="13" font-family="monospace">&#x2022; Fira Code</text>
+  </g>
+</svg>

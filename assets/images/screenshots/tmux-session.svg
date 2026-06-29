@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect x="0" y="0" width="800" height="450" rx="6" fill="#1c1c24" stroke="#444" stroke-width="1"/>
+  <!-- Tmux status bar -->
+  <rect x="0" y="0" width="800" height="22" fill="#2d2d3d"/>
+  <text x="8" y="15" fill="#61afef" font-size="11" font-family="monospace">tmux: dev-session</text>
+  <text x="140" y="15" fill="#98c379" font-size="11" font-family="monospace">1:bash*</text>
+  <text x="200" y="15" fill="#abb2bf" font-size="11" font-family="monospace">2:nvim</text>
+  <text x="252" y="15" fill="#abb2bf" font-size="11" font-family="monospace">3:server</text>
+  <!-- Right side status -->
+  <text x="600" y="15" fill="#abb2bf" font-size="11" font-family="monospace">~/dev/project</text>
+  <text x="740" y="15" fill="#e5c07b" font-size="11" font-family="monospace">main</text>
+
+  <!-- Pane 1: Editor (left half) -->
+  <rect x="0" y="22" width="400" height="320" fill="#1e1e2e"/>
+  <!-- Editor gutter -->
+  <rect x="0" y="22" width="40" height="320" fill="#181825"/>
+  <text x="8" y="44" fill="#6c7086" font-size="11" font-family="monospace">1</text>
+  <text x="8" y="60" fill="#6c7086" font-size="11" font-family="monospace">2</text>
+  <text x="8" y="76" fill="#6c7086" font-size="11" font-family="monospace">3</text>
+  <text x="8" y="92" fill="#6c7086" font-size="11" font-family="monospace">4</text>
+  <text x="8" y="108" fill="#6c7086" font-size="11" font-family="monospace">5</text>
+  <text x="8" y="124" fill="#6c7086" font-size="11" font-family="monospace">6</text>
+  <text x="8" y="140" fill="#6c7086" font-size="11" font-family="monospace">7</text>
+  <text x="8" y="156" fill="#6c7086" font-size="11" font-family="monospace">8</text>
+  <text x="8" y="172" fill="#6c7086" font-size="11" font-family="monospace">9</text>
+  <text x="4" y="188" fill="#6c7086" font-size="11" font-family="monospace">10</text>
+  <text x="4" y="204" fill="#6c7086" font-size="11" font-family="monospace">11</text>
+  <text x="4" y="220" fill="#6c7086" font-size="11" font-family="monospace">12</text>
+  <text x="4" y="236" fill="#6c7086" font-size="11" font-family="monospace">13</text>
+  <text x="4" y="252" fill="#6c7086" font-size="11" font-family="monospace">14</text>
+  <text x="4" y="268" fill="#6c7086" font-size="11" font-family="monospace">15</text>
+  <text x="4" y="284" fill="#6c7086" font-size="11" font-family="monospace">16</text>
+  <text x="4" y="300" fill="#6c7086" font-size="11" font-family="monospace">17</text>
+  <text x="4" y="316" fill="#6c7086" font-size="11" font-family="monospace">18</text>
+  <text x="4" y="332" fill="#6c7086" font-size="11" font-family="monospace">19</text>
+
+  <!-- Editor content -->
+  <text x="48" y="44" fill="#c678dd" font-size="11" font-family="monospace">import</text>
+  <text x="88" y="44" fill="#61afef" font-size="11" font-family="monospace">React</text>
+  <text x="124" y="44" fill="#abb2bf" font-size="11" font-family="monospace">from</text>
+  <text x="148" y="44" fill="#98c379" font-size="11" font-family="monospace">'react'</text>
+
+  <text x="48" y="60" fill="#c678dd" font-size="11" font-family="monospace">import</text>
+  <text x="88" y="60" fill="#abb2bf" font-size="11" font-family="monospace">{</text>
+  <text x="100" y="60" fill="#61afef" font-size="11" font-family="monospace">useState</text>
+  <text x="148" y="60" fill="#abb2bf" font-size="11" font-family="monospace">}</text>
+  <text x="156" y="60" fill="#abb2bf" font-size="11" font-family="monospace">from</text>
+  <text x="180" y="60" fill="#98c379" font-size="11" font-family="monospace">'react'</text>
+
+  <text x="48" y="76" fill="#abb2bf" font-size="11" font-family="monospace">const</text>
+  <text x="76" y="76" fill="#61afef" font-size="11" font-family="monospace">App</text>
+  <text x="100" y="76" fill="#abb2bf" font-size="11" font-family="monospace">= ()</text>
+  <text x="132" y="76" fill="#c678dd" font-size="11" font-family="monospace">=&gt;</text>
+  <text x="148" y="76" fill="#abb2bf" font-size="11" font-family="monospace">{</text>
+
+  <text x="60" y="92" fill="#c678dd" font-size="11" font-family="monospace">const</text>
+  <text x="92" y="92" fill="#abb2bf" font-size="11" font-family="monospace">[count, setCount] =</text>
+  <text x="220" y="92" fill="#61afef" font-size="11" font-family="monospace">useState</text>
+  <text x="264" y="92" fill="#abb2bf" font-size="11" font-family="monospace">(0)</text>
+
+  <text x="60" y="108" fill="#c678dd" font-size="11" font-family="monospace">return</text>
+  <text x="100" y="108" fill="#abb2bf" font-size="11" font-family="monospace">(</text>
+  <text x="72" y="124" fill="#abb2bf" font-size="11" font-family="monospace">&lt;div&gt;</text>
+  <text x="84" y="140" fill="#abb2bf" font-size="11" font-family="monospace">&lt;p&gt;Count: {count}&lt;/p&gt;</text>
+  <text x="84" y="156" fill="#abb2bf" font-size="11" font-family="monospace">&lt;button onClick=</text>
+  <text x="172" y="156" fill="#abb2bf" font-size="11" font-family="monospace">{()</text>
+  <text x="188" y="160" fill="#abb2bf" font-size="11" font-family="monospace">=&gt; setCount(c </text>
+  <text x="260" y="160" fill="#abb2bf" font-size="11" font-family="monospace">=&gt; c+1)}&gt;</text>
+  <text x="84" y="176" fill="#abb2bf" font-size="11" font-family="monospace">Increment</text>
+  <text x="84" y="192" fill="#abb2bf" font-size="11" font-family="monospace">&lt;/button&gt;</text>
+  <text x="72" y="208" fill="#abb2bf" font-size="11" font-family="monospace">&lt;/div&gt;</text>
+  <text x="60" y="224" fill="#abb2bf" font-size="11" font-family="monospace">)</text>
+  <text x="48" y="240" fill="#abb2bf" font-size="11" font-family="monospace">}</text>
+  <!-- Highlighted line (cursor) -->
+  <rect x="48" y="154" width="280" height="14" fill="#2d3d5e" opacity="0.5"/>
+
+  <!-- Pane 2: Terminal (right top) -->
+  <rect x="400" y="22" width="400" height="158" fill="#0d1117"/>
+  <text x="408" y="44" fill="#00ff88" font-size="12" font-family="monospace">➜</text>
+  <text x="424" y="44" fill="#00d4aa" font-size="12" font-family="monospace">~/dev/project</text>
+  <text x="520" y="44" fill="#ffcc00" font-size="12" font-family="monospace">main</text>
+  <text x="8" y="68" fill="#f5f5f5" font-size="12" font-family="monospace">npm run build</text>
+  <text x="8" y="92" fill="#888" font-size="11" font-family="monospace">&gt; app@1.0.0 build</text>
+  <text x="8" y="108" fill="#888" font-size="11" font-family="monospace">&gt; vite build</text>
+  <text x="8" y="132" fill="#22d3ee" font-size="11" font-family="monospace">✓ built in 2.3s</text>
+  <text x="8" y="152" fill="#00ff88" font-size="12" font-family="monospace">➜</text>
+  <text x="24" y="152" fill="#00d4aa" font-size="12" font-family="monospace">~/dev/project</text>
+  <text x="120" y="152" fill="#ffcc00" font-size="12" font-family="monospace">main</text>
+  <rect x="148" y="158" width="8" height="14" fill="#00ff88" opacity="0.6"/>
+
+  <!-- Pane 3: Server (right bottom) -->
+  <rect x="400" y="180" width="400" height="162" fill="#1a1a2e"/>
+  <!-- Pane border -->
+  <rect x="400" y="180" width="400" height="4" fill="#2d2d3d"/>
+  <text x="408" y="202" fill="#e5c07b" font-size="12" font-family="monospace">$</text>
+  <text x="424" y="202" fill="#abb2bf" font-size="12" font-family="monospace">npm run dev</text>
+  <text x="8" y="228" fill="#98c379" font-size="12" font-family="monospace">&gt; dev-server@1.0.0 dev</text>
+  <text x="8" y="248" fill="#98c379" font-size="12" font-family="monospace">&gt; node server.js</text>
+  <text x="8" y="276" fill="#61afef" font-size="12" font-family="monospace">Server running on http://localhost:3000</text>
+  <text x="8" y="296" fill="#e5c07b" font-size="12" font-family="monospace">[2026-06-29 14:32:18]</text>
+  <text x="160" y="296" fill="#abb2bf" font-size="12" font-family="monospace">GET / 200 12ms</text>
+  <text x="8" y="316" fill="#e5c07b" font-size="12" font-family="monospace">[2026-06-29 14:32:20]</text>
+  <text x="160" y="316" fill="#abb2bf" font-size="12" font-family="monospace">GET /api/users 200 5ms</text>
+
+  <!-- Pane dividers -->
+  <line x1="0" y1="342" x2="800" y2="342" stroke="#2d2d3d" stroke-width="2"/>
+
+  <!-- Bottom pane: git log (full width) -->
+  <rect x="0" y="344" width="800" height="106" fill="#0d1117"/>
+  <text x="8" y="364" fill="#00ff88" font-size="12" font-family="monospace">➜</text>
+  <text x="24" y="364" fill="#00d4aa" font-size="12" font-family="monospace">~/dev/project</text>
+  <text x="120" y="364" fill="#ffcc00" font-size="12" font-family="monospace">main</text>
+  <text x="160" y="364" fill="#abb2bf" font-size="12" font-family="monospace">git log --oneline --graph -5</text>
+  <text x="8" y="384" fill="#98c379" font-size="12" font-family="monospace">* a1b2c3d</text>
+  <text x="88" y="384" fill="#abb2bf" font-size="12" font-family="monospace">feat: add user authentication</text>
+  <text x="8" y="400" fill="#e5c07b" font-size="12" font-family="monospace">* e4f5g6h</text>
+  <text x="88" y="400" fill="#abb2bf" font-size="12" font-family="monospace">fix: resolve layout shift on mobile</text>
+  <text x="8" y="416" fill="#61afef" font-size="12" font-family="monospace">* i7j8k9l</text>
+  <text x="88" y="416" fill="#abb2bf" font-size="12" font-family="monospace">refactor: extract API client module</text>
+  <text x="8" y="432" fill="#c678dd" font-size="12" font-family="monospace">* m0n1o2p</text>
+  <text x="88" y="432" fill="#abb2bf" font-size="12" font-family="monospace">docs: update README with setup guide</text>
+</svg>

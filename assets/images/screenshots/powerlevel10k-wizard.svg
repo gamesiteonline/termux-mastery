@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="p10k-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#1a1a2e" stroke="#444" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#2a2a3e"/>
+  <rect x="0" y="14" width="800" height="14" fill="#2a2a3e"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#aaa" font-size="11" font-family="monospace" text-anchor="middle">p10k configure</text>
+
+  <g clip-path="url(#p10k-clip)">
+    <text x="8" y="52" fill="#a45bad" font-size="14" font-family="monospace">Powerlevel10k configuration wizard</text>
+    <text x="8" y="72" fill="#6c7086" font-size="12" font-family="monospace">────────────────────────────────────────────</text>
+
+    <text x="8" y="96" fill="#cdd6f4" font-size="13" font-family="monospace">Does this look like a diamond</text>
+    <text x="8" y="114" fill="#cdd6f4" font-size="13" font-family="monospace">(rotated square)?</text>
+
+    <text x="8" y="140" fill="#a6e3a1" font-size="14" font-family="monospace">  ◆  ◆  ◆  ◆  ◆  ◆  ◆  ◆  ◆  ◆</text>
+
+    <text x="8" y="168" fill="#cdd6f4" font-size="13" font-family="monospace">  [1]  Yes</text>
+    <text x="8" y="188" fill="#cdd6f4" font-size="13" font-family="monospace">  [2]  No</text>
+    <text x="8" y="208" fill="#cdd6f4" font-size="13" font-family="monospace">  [3]  Quit and do nothing</text>
+
+    <text x="8" y="236" fill="#a45bad" font-size="13" font-family="monospace">Choice [1]:</text>
+    <text x="88" y="236" fill="#cdd6f4" font-size="13" font-family="monospace">1</text>
+
+    <text x="8" y="264" fill="#a45bad" font-size="13" font-family="monospace">Prompt Style</text>
+    <text x="8" y="284" fill="#cdd6f4" font-size="13" font-family="monospace">  [1]  Lean (classic, shows only what you need)</text>
+    <text x="8" y="304" fill="#a6e3a1" font-size="13" font-family="monospace">  [2]  Classic (Powerlevel9k style)</text>
+    <text x="8" y="324" fill="#cdd6f4" font-size="13" font-family="monospace">  [3]  Rainbow (colorful)</text>
+    <text x="8" y="344" fill="#cdd6f4" font-size="13" font-family="monospace">  [4]  Pure (clean, minimal)</text>
+    <text x="8" y="364" fill="#cdd6f4" font-size="13" font-family="monospace">  [5]  Transient (prompt disappears after exec)</text>
+
+    <text x="8" y="392" fill="#a45bad" font-size="13" font-family="monospace">Choice [1]:</text>
+    <rect x="88" y="396" width="8" height="15" fill="#cdd6f4" opacity="0.7"/>
+
+    <!-- Bottom bar -->
+    <rect x="0" y="426" width="800" height="24" fill="#2a2a3e"/>
+    <text x="16" y="442" fill="#6c7086" font-size="11" font-family="monospace">Use arrow keys to navigate, Enter to select, q to quit</text>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="fish-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#0a0a14" stroke="#2a2a3c" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#1a1a24"/>
+  <rect x="0" y="14" width="800" height="14" fill="#1a1a24"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#aaa" font-size="11" font-family="monospace" text-anchor="middle">fish — autosuggestions</text>
+
+  <g clip-path="url(#fish-clip)">
+    <!-- Fish prompt -->
+    <text x="8" y="52" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="52" fill="#00d4aa" font-size="14" font-family="monospace">~</text>
+    <text x="8" y="76" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="76" fill="#00d4aa" font-size="14" font-family="monospace">~</text>
+    <text x="48" y="76" fill="#888" font-size="13" font-family="monospace">via</text>
+    <text x="68" y="76" fill="#ff6b6b" font-size="13" font-family="monospace">v18.16.0</text>
+
+    <text x="8" y="100" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="100" fill="#00d4aa" font-size="14" font-family="monospace">~</text>
+    <text x="68" y="100" fill="#888" font-size="13" font-family="monospace">npm</text>
+
+    <text x="8" y="128" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="128" fill="#00d4aa" font-size="14" font-family="monospace">~/dev/project</text>
+    <text x="140" y="128" fill="#ffcc00" font-size="14" font-family="monospace">main</text>
+    <text x="180" y="128" fill="#888" font-size="13" font-family="monospace">via</text>
+    <text x="200" y="128" fill="#ff6b6b" font-size="13" font-family="monospace">v18.16.0</text>
+
+    <!-- Ghost text suggestion example -->
+    <text x="8" y="156" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="156" fill="#00d4aa" font-size="14" font-family="monospace">~/dev/project</text>
+    <text x="140" y="156" fill="#ffcc00" font-size="14" font-family="monospace">main</text>
+    <text x="200" y="156" fill="#888" font-size="13" font-family="monospace">node</text>
+
+    <!-- Typing: git with ghost text suggestion -->
+    <text x="8" y="188" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="188" fill="#00d4aa" font-size="14" font-family="monospace">~/dev/project</text>
+    <text x="140" y="188" fill="#ffcc00" font-size="14" font-family="monospace">main</text>
+    <text x="8" y="212" fill="#f5f5f5" font-size="14" font-family="monospace">git</text>
+    <text x="36" y="212" fill="#404060" font-size="14" font-family="monospace"> push origin main</text>
+
+    <rect x="36" y="200" width="8" height="14" fill="#00ff88" opacity="0.7"/>
+
+    <text x="8" y="240" fill="#888" font-size="12" font-family="monospace">(autosuggestion) git push origin main</text>
+
+    <!-- Another example -->
+    <text x="8" y="268" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="268" fill="#00d4aa" font-size="14" font-family="monospace">~/dev/project</text>
+    <text x="140" y="268" fill="#ffcc00" font-size="14" font-family="monospace">main</text>
+
+    <text x="8" y="292" fill="#f5f5f5" font-size="14" font-family="monospace">cd</text>
+    <text x="32" y="292" fill="#404060" font-size="14" font-family="monospace"> src/components</text>
+
+    <rect x="32" y="280" width="8" height="14" fill="#00ff88" opacity="0.7"/>
+
+    <!-- Accept suggestion with Ctrl+F or right arrow -->
+    <text x="8" y="320" fill="#00ff88" font-size="14" font-family="monospace">➜</text>
+    <text x="28" y="320" fill="#00d4aa" font-size="14" font-family="monospace">~/dev/project</text>
+    <text x="140" y="320" fill="#ffcc00" font-size="14" font-family="monospace">main</text>
+
+    <text x="8" y="344" fill="#f5f5f5" font-size="14" font-family="monospace">cd src/components</text>
+
+    <!-- Suggestion description box -->
+    <rect x="8" y="360" width="400" height="50" rx="4" fill="#12121e" stroke="#2a2a3c" stroke-width="1"/>
+    <text x="16" y="378" fill="#6c7086" font-size="11" font-family="monospace">fish: Accept autosuggestion with</text>
+    <text x="176" y="378" fill="#00ff88" font-size="11" font-family="monospace">Ctrl+F</text>
+    <text x="212" y="378" fill="#6c7086" font-size="11" font-family="monospace">or</text>
+    <text x="228" y="378" fill="#00ff88" font-size="11" font-family="monospace">→</text>
+    <text x="244" y="378" fill="#6c7086" font-size="11" font-family="monospace">(right arrow)</text>
+    <text x="16" y="398" fill="#6c7086" font-size="11" font-family="monospace">Partial accept:</text>
+    <text x="112" y="398" fill="#00ff88" font-size="11" font-family="monospace">Alt+→</text>
+    <text x="156" y="398" fill="#6c7086" font-size="11" font-family="monospace">or</text>
+    <text x="172" y="398" fill="#00ff88" font-size="11" font-family="monospace">Alt+F</text>
+
+    <!-- Bottom note -->
+    <text x="8" y="436" fill="#404060" font-size="11" font-family="monospace">Type ahead — suggestions appear in dim text as you type</text>
+  </g>
+</svg>

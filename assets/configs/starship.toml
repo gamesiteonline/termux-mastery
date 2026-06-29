@@ -1,0 +1,71 @@
+# Starship Prompt Config
+# https://starship.rs/config/
+
+# Format
+format = """
+[](#f7768e)\
+$os\
+$username\
+[](bg:#9d7cd8 fg:#f7768e)\
+$directory\
+[](fg:#9d7cd8 bg:#bb9af7)\
+$git_branch\
+$git_status\
+[](fg:#bb9af7 bg:#7dcfff)\
+$nodejs\
+$python\
+$rust\
+[](fg:#7dcfff bg:#1abc9c)\
+$time\
+[ ](fg:#1abc9c)\
+"""
+
+# Directory
+[directory]
+style = "bold fg:#c0caf5"
+truncation_length = 3
+truncate_to_repo = true
+
+# Git
+[git_branch]
+style = "bold fg:#c0caf5"
+symbol = " "
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+staged = "++$count"
+modified = "📝"
+
+# Languages
+[nodejs]
+format = "via [⬢ $version](bold green)"
+style = "bold green"
+
+[python]
+format = "via [🐍 $version]($style)"
+style = "bold yellow"
+
+[rust]
+format = "via [🦀 $version]($style)"
+style = "bold red"
+
+[golang]
+format = "via [🐹 $version]($style)"
+style = "bold cyan"
+
+# Time
+[time]
+format = '🕙 $time'
+use_12hr = true
+time_format = "%I:%M %p"
+style = "bright white bg:#33658A"
+
+# Disable unused modules
+[package]
+disabled = true
+
+[docker_context]
+disabled = true

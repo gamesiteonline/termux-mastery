@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <clipPath id="cs-clip"><rect x="2" y="28" width="796" height="420" rx="0"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" rx="8" fill="#11111b" stroke="#444" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="28" rx="8" fill="#1e1e2e"/>
+  <rect x="0" y="14" width="800" height="14" fill="#1e1e2e"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="32" cy="14" r="5" fill="#fdbc40"/>
+  <circle cx="48" cy="14" r="5" fill="#33c748"/>
+  <text x="400" y="19" fill="#cdd6f4" font-size="11" font-family="monospace" text-anchor="middle">color-schemes</text>
+
+  <g clip-path="url(#cs-clip)">
+    <text x="8" y="52" fill="#cdd6f4" font-size="16" font-family="monospace">Terminal Color Schemes</text>
+    <text x="8" y="72" fill="#6c7086" font-size="11" font-family="monospace">Preview of popular terminal themes</text>
+
+    <!-- Dracula -->
+    <rect x="8" y="84" width="380" height="170" rx="6" fill="#282a36"/>
+    <rect x="8" y="84" width="380" height="24" rx="6" fill="#44475a"/>
+    <rect x="8" y="100" width="380" height="8" fill="#44475a"/>
+    <circle cx="22" cy="96" r="4" fill="#ff5555"/>
+    <circle cx="34" cy="96" r="4" fill="#f1fa8c"/>
+    <circle cx="46" cy="96" r="4" fill="#50fa7b"/>
+    <text x="198" y="100" fill="#f8f8f2" font-size="11" font-family="monospace" text-anchor="middle">Dracula</text>
+
+    <text x="16" y="120" fill="#f8f8f2" font-size="11" font-family="monospace">~ $</text>
+    <text x="32" y="120" fill="#ff79c6" font-size="11" font-family="monospace">cd projects</text>
+    <text x="16" y="136" fill="#50fa7b" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="80" y="136" fill="#f8f8f2" font-size="11" font-family="monospace">ls</text>
+    <text x="16" y="152" fill="#8be9fd" font-size="11" font-family="monospace">README.md</text>
+    <text x="80" y="152" fill="#bd93f9" font-size="11" font-family="monospace">src/</text>
+    <text x="16" y="168" fill="#50fa7b" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="80" y="168" fill="#ffb86c" font-size="11" font-family="monospace">git branch</text>
+    <text x="16" y="184" fill="#f1fa8c" font-size="11" font-family="monospace">* main</text>
+
+    <!-- Color palette -->
+    <rect x="16" y="200" width="16" height="12" rx="2" fill="#44475a"/>
+    <rect x="34" y="200" width="16" height="12" rx="2" fill="#ff5555"/>
+    <rect x="52" y="200" width="16" height="12" rx="2" fill="#50fa7b"/>
+    <rect x="70" y="200" width="16" height="12" rx="2" fill="#f1fa8c"/>
+    <rect x="88" y="200" width="16" height="12" rx="2" fill="#bd93f9"/>
+    <rect x="106" y="200" width="16" height="12" rx="2" fill="#ff79c6"/>
+    <rect x="124" y="200" width="16" height="12" rx="2" fill="#8be9fd"/>
+    <text x="152" y="210" fill="#6272a4" font-size="9" font-family="monospace">ANSI 16-color palette</text>
+
+    <!-- Nord -->
+    <rect x="404" y="84" width="380" height="170" rx="6" fill="#2e3440"/>
+    <rect x="404" y="84" width="380" height="24" rx="6" fill="#3b4252"/>
+    <rect x="404" y="100" width="380" height="8" fill="#3b4252"/>
+    <circle cx="418" cy="96" r="4" fill="#bf616a"/>
+    <circle cx="430" cy="96" r="4" fill="#ebcb8b"/>
+    <circle cx="442" cy="96" r="4" fill="#a3be8c"/>
+    <text x="594" y="100" fill="#eceff4" font-size="11" font-family="monospace" text-anchor="middle">Nord</text>
+
+    <text x="412" y="120" fill="#eceff4" font-size="11" font-family="monospace">~ $</text>
+    <text x="428" y="120" fill="#81a1c1" font-size="11" font-family="monospace">cd projects</text>
+    <text x="412" y="136" fill="#a3be8c" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="476" y="136" fill="#eceff4" font-size="11" font-family="monospace">ls</text>
+    <text x="412" y="152" fill="#88c0d0" font-size="11" font-family="monospace">README.md</text>
+    <text x="476" y="152" fill="#b48ead" font-size="11" font-family="monospace">src/</text>
+    <text x="412" y="168" fill="#a3be8c" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="476" y="168" fill="#ebcb8b" font-size="11" font-family="monospace">git branch</text>
+    <text x="412" y="184" fill="#d08770" font-size="11" font-family="monospace">* main</text>
+    <rect x="412" y="200" width="16" height="12" rx="2" fill="#3b4252"/>
+    <rect x="430" y="200" width="16" height="12" rx="2" fill="#bf616a"/>
+    <rect x="448" y="200" width="16" height="12" rx="2" fill="#a3be8c"/>
+    <rect x="466" y="200" width="16" height="12" rx="2" fill="#ebcb8b"/>
+    <rect x="484" y="200" width="16" height="12" rx="2" fill="#b48ead"/>
+    <rect x="502" y="200" width="16" height="12" rx="2" fill="#81a1c1"/>
+    <rect x="520" y="200" width="16" height="12" rx="2" fill="#88c0d0"/>
+
+    <!-- Tokyo Night -->
+    <rect x="8" y="264" width="380" height="170" rx="6" fill="#1a1b26"/>
+    <rect x="8" y="264" width="380" height="24" rx="6" fill="#24283b"/>
+    <rect x="8" y="280" width="380" height="8" fill="#24283b"/>
+    <circle cx="22" cy="276" r="4" fill="#f7768e"/>
+    <circle cx="34" cy="276" r="4" fill="#e0af68"/>
+    <circle cx="46" cy="276" r="4" fill="#9ece6a"/>
+    <text x="198" y="280" fill="#a9b1d6" font-size="11" font-family="monospace" text-anchor="middle">Tokyo Night</text>
+
+    <text x="16" y="300" fill="#a9b1d6" font-size="11" font-family="monospace">~ $</text>
+    <text x="32" y="300" fill="#7aa2f7" font-size="11" font-family="monospace">cd projects</text>
+    <text x="16" y="316" fill="#9ece6a" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="80" y="316" fill="#a9b1d6" font-size="11" font-family="monospace">ls</text>
+    <text x="16" y="332" fill="#73daca" font-size="11" font-family="monospace">README.md</text>
+    <text x="80" y="332" fill="#bb9af7" font-size="11" font-family="monospace">src/</text>
+    <text x="16" y="348" fill="#9ece6a" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="80" y="348" fill="#e0af68" font-size="11" font-family="monospace">git branch</text>
+    <text x="16" y="364" fill="#f7768e" font-size="11" font-family="monospace">* main</text>
+    <rect x="16" y="380" width="16" height="12" rx="2" fill="#24283b"/>
+    <rect x="34" y="380" width="16" height="12" rx="2" fill="#f7768e"/>
+    <rect x="52" y="380" width="16" height="12" rx="2" fill="#9ece6a"/>
+    <rect x="70" y="380" width="16" height="12" rx="2" fill="#e0af68"/>
+    <rect x="88" y="380" width="16" height="12" rx="2" fill="#bb9af7"/>
+    <rect x="106" y="380" width="16" height="12" rx="2" fill="#7aa2f7"/>
+    <rect x="124" y="380" width="16" height="12" rx="2" fill="#73daca"/>
+
+    <!-- Gruvbox -->
+    <rect x="404" y="264" width="380" height="170" rx="6" fill="#282828"/>
+    <rect x="404" y="264" width="380" height="24" rx="6" fill="#3c3836"/>
+    <rect x="404" y="280" width="380" height="8" fill="#3c3836"/>
+    <circle cx="418" cy="276" r="4" fill="#cc241d"/>
+    <circle cx="430" cy="276" r="4" fill="#d79921"/>
+    <circle cx="442" cy="276" r="4" fill="#98971a"/>
+    <text x="594" y="280" fill="#ebdbb2" font-size="11" font-family="monospace" text-anchor="middle">Gruvbox</text>
+
+    <text x="412" y="300" fill="#ebdbb2" font-size="11" font-family="monospace">~ $</text>
+    <text x="428" y="300" fill="#83a598" font-size="11" font-family="monospace">cd projects</text>
+    <text x="412" y="316" fill="#98971a" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="476" y="316" fill="#ebdbb2" font-size="11" font-family="monospace">ls</text>
+    <text x="412" y="332" fill="#8ec07c" font-size="11" font-family="monospace">README.md</text>
+    <text x="476" y="332" fill="#d3869b" font-size="11" font-family="monospace">src/</text>
+    <text x="412" y="348" fill="#98971a" font-size="11" font-family="monospace">~/projects $</text>
+    <text x="476" y="348" fill="#fabd2f" font-size="11" font-family="monospace">git branch</text>
+    <text x="412" y="364" fill="#fb4934" font-size="11" font-family="monospace">* main</text>
+    <rect x="412" y="380" width="16" height="12" rx="2" fill="#3c3836"/>
+    <rect x="430" y="380" width="16" height="12" rx="2" fill="#cc241d"/>
+    <rect x="448" y="380" width="16" height="12" rx="2" fill="#98971a"/>
+    <rect x="466" y="380" width="16" height="12" rx="2" fill="#d79921"/>
+    <rect x="484" y="380" width="16" height="12" rx="2" fill="#d3869b"/>
+    <rect x="502" y="380" width="16" height="12" rx="2" fill="#83a598"/>
+    <rect x="520" y="380" width="16" height="12" rx="2" fill="#8ec07c"/>
+  </g>
+</svg>
