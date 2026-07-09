@@ -1,28 +1,5 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-dist/
-build/
-
-# Node
-node_modules/
-.npm/
-
-# Termux local
-.termux/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# MkDocs
-site/
-
-# Environment
+node_modules
+dist
+.manus-logs
 .env
 *.log
