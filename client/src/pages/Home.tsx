@@ -6,44 +6,44 @@ const navigation = [
   {
     title: 'Getting Started',
     items: [
-      { id: 0, title: 'Introduction', path: 'docs/index.md' },
-      { id: 1, title: 'Installation', path: 'docs/getting-started/installation/index.md' },
-      { id: 2, title: 'Basic Configuration', path: 'docs/getting-started/basic-config/index.md' },
-      { id: 3, title: 'Shell Basics', path: 'docs/getting-started/shell-basics/index.md' },
-      { id: 4, title: 'Package Management', path: 'docs/getting-started/package-management/index.md' },
+      { id: 0, title: 'Introduction', path: 'index.md' },
+      { id: 1, title: 'Installation', path: 'getting-started/installation/index.md' },
+      { id: 2, title: 'Basic Configuration', path: 'getting-started/basic-config/index.md' },
+      { id: 3, title: 'Shell Basics', path: 'getting-started/shell-basics/index.md' },
+      { id: 4, title: 'Package Management', path: 'getting-started/package-management/index.md' },
     ]
   },
   {
     title: 'Shells',
     items: [
-      { id: 5, title: 'Bash Basics', path: 'docs/shells/bash-basics/index.md' },
-      { id: 6, title: 'Zsh Setup', path: 'docs/shells/zsh-setup/index.md' },
-      { id: 7, title: 'Oh My Zsh', path: 'docs/shells/oh-my-zsh/index.md' },
-      { id: 8, title: 'Powerlevel10k', path: 'docs/shells/powerlevel10k/index.md' },
-      { id: 9, title: 'Zsh Autocomplete', path: 'docs/shells/zsh-autocomplete/index.md' },
-      { id: 10, title: 'Zsh Plugins', path: 'docs/shells/zsh-plugins/index.md' },
-      { id: 11, title: 'Fish Setup', path: 'docs/shells/fish-setup/index.md' },
-      { id: 12, title: 'Fish Autocomplete', path: 'docs/shells/fish-autocomplete/index.md' },
-      { id: 13, title: 'Starship Prompt', path: 'docs/shells/starship-prompt/index.md' },
-      { id: 14, title: 'Shell Comparison', path: 'docs/shells/shell-comparison/index.md' },
+      { id: 5, title: 'Bash Basics', path: 'shells/bash-basics/index.md' },
+      { id: 6, title: 'Zsh Setup', path: 'shells/zsh-setup/index.md' },
+      { id: 7, title: 'Oh My Zsh', path: 'shells/oh-my-zsh/index.md' },
+      { id: 8, title: 'Powerlevel10k', path: 'shells/powerlevel10k/index.md' },
+      { id: 9, title: 'Zsh Autocomplete', path: 'shells/zsh-autocomplete/index.md' },
+      { id: 10, title: 'Zsh Plugins', path: 'shells/zsh-plugins/index.md' },
+      { id: 11, title: 'Fish Setup', path: 'shells/fish-setup/index.md' },
+      { id: 12, title: 'Fish Autocomplete', path: 'shells/fish-autocomplete/index.md' },
+      { id: 13, title: 'Starship Prompt', path: 'shells/starship-prompt/index.md' },
+      { id: 14, title: 'Shell Comparison', path: 'shells/shell-comparison/index.md' },
     ]
   },
   {
     title: 'Theming',
     items: [
-      { id: 15, title: 'Termux Styling', path: 'docs/theming/termux-styling/index.md' },
-      { id: 16, title: 'Nerd Fonts', path: 'docs/theming/nerd-fonts/index.md' },
-      { id: 17, title: 'Color Schemes', path: 'docs/theming/color-schemes/index.md' },
-      { id: 18, title: 'Theme Examples', path: 'docs/theming/theme-examples/index.md' },
+      { id: 15, title: 'Termux Styling', path: 'theming/termux-styling/index.md' },
+      { id: 16, title: 'Nerd Fonts', path: 'theming/nerd-fonts/index.md' },
+      { id: 17, title: 'Color Schemes', path: 'theming/color-schemes/index.md' },
+      { id: 18, title: 'Theme Examples', path: 'theming/theme-examples/index.md' },
     ]
   },
   {
     title: 'Automation',
     items: [
-      { id: 19, title: 'Termux API', path: 'docs/automation/termux-api/index.md' },
-      { id: 20, title: 'Cron Jobs', path: 'docs/automation/cron-jobs/index.md' },
-      { id: 21, title: 'SSH Keys', path: 'docs/automation/ssh-keys/index.md' },
-      { id: 22, title: 'Automation Examples', path: 'docs/automation/automation-examples/index.md' },
+      { id: 19, title: 'Termux API', path: 'automation/termux-api/index.md' },
+      { id: 20, title: 'Cron Jobs', path: 'automation/cron-jobs/index.md' },
+      { id: 21, title: 'SSH Keys', path: 'automation/ssh-keys/index.md' },
+      { id: 22, title: 'Automation Examples', path: 'automation/automation-examples/index.md' },
     ]
   }
 ];
