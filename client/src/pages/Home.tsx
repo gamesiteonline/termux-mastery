@@ -1,49 +1,49 @@
 import { useState, useEffect } from 'react';
-import { BookOpen, Terminal, MessageCircle, Menu, X, ChevronRight, ChevronLeft, Github } from 'lucide-react';
+import { Terminal, MessageCircle, Menu, X, ChevronRight, ChevronLeft, Github } from 'lucide-react';
 import { Streamdown } from 'streamdown';
 
 const navigation = [
   {
     title: 'Getting Started',
     items: [
-      { id: 0, title: 'Introduction', path: 'index.md' },
-      { id: 1, title: 'Installation', path: 'getting-started/installation/index.md' },
-      { id: 2, title: 'Basic Configuration', path: 'getting-started/basic-config/index.md' },
-      { id: 3, title: 'Shell Basics', path: 'getting-started/shell-basics/index.md' },
-      { id: 4, title: 'Package Management', path: 'getting-started/package-management/index.md' },
+      { id: 0, title: 'Introduction', path: 'index.md', slug: '' },
+      { id: 1, title: 'Installation', path: 'getting-started/installation/index.md', slug: 'getting-started/installation' },
+      { id: 2, title: 'Basic Configuration', path: 'getting-started/basic-config/index.md', slug: 'getting-started/basic-config' },
+      { id: 3, title: 'Shell Basics', path: 'getting-started/shell-basics/index.md', slug: 'getting-started/shell-basics' },
+      { id: 4, title: 'Package Management', path: 'getting-started/package-management/index.md', slug: 'getting-started/package-management' },
     ]
   },
   {
     title: 'Shells',
     items: [
-      { id: 5, title: 'Bash Basics', path: 'shells/bash-basics/index.md' },
-      { id: 6, title: 'Zsh Setup', path: 'shells/zsh-setup/index.md' },
-      { id: 7, title: 'Oh My Zsh', path: 'shells/oh-my-zsh/index.md' },
-      { id: 8, title: 'Powerlevel10k', path: 'shells/powerlevel10k/index.md' },
-      { id: 9, title: 'Zsh Autocomplete', path: 'shells/zsh-autocomplete/index.md' },
-      { id: 10, title: 'Zsh Plugins', path: 'shells/zsh-plugins/index.md' },
-      { id: 11, title: 'Fish Setup', path: 'shells/fish-setup/index.md' },
-      { id: 12, title: 'Fish Autocomplete', path: 'shells/fish-autocomplete/index.md' },
-      { id: 13, title: 'Starship Prompt', path: 'shells/starship-prompt/index.md' },
-      { id: 14, title: 'Shell Comparison', path: 'shells/shell-comparison/index.md' },
+      { id: 5, title: 'Bash Basics', path: 'shells/bash-basics/index.md', slug: 'shells/bash-basics' },
+      { id: 6, title: 'Zsh Setup', path: 'shells/zsh-setup/index.md', slug: 'shells/zsh-setup' },
+      { id: 7, title: 'Oh My Zsh', path: 'shells/oh-my-zsh/index.md', slug: 'shells/oh-my-zsh' },
+      { id: 8, title: 'Powerlevel10k', path: 'shells/powerlevel10k/index.md', slug: 'shells/powerlevel10k' },
+      { id: 9, title: 'Zsh Autocomplete', path: 'shells/zsh-autocomplete/index.md', slug: 'shells/zsh-autocomplete' },
+      { id: 10, title: 'Zsh Plugins', path: 'shells/zsh-plugins/index.md', slug: 'shells/zsh-plugins' },
+      { id: 11, title: 'Fish Setup', path: 'shells/fish-setup/index.md', slug: 'shells/fish-setup' },
+      { id: 12, title: 'Fish Autocomplete', path: 'shells/fish-autocomplete/index.md', slug: 'shells/fish-autocomplete' },
+      { id: 13, title: 'Starship Prompt', path: 'shells/starship-prompt/index.md', slug: 'shells/starship-prompt' },
+      { id: 14, title: 'Shell Comparison', path: 'shells/shell-comparison/index.md', slug: 'shells/shell-comparison' },
     ]
   },
   {
     title: 'Theming',
     items: [
-      { id: 15, title: 'Termux Styling', path: 'theming/termux-styling/index.md' },
-      { id: 16, title: 'Nerd Fonts', path: 'theming/nerd-fonts/index.md' },
-      { id: 17, title: 'Color Schemes', path: 'theming/color-schemes/index.md' },
-      { id: 18, title: 'Theme Examples', path: 'theming/theme-examples/index.md' },
+      { id: 15, title: 'Termux Styling', path: 'theming/termux-styling/index.md', slug: 'theming/termux-styling' },
+      { id: 16, title: 'Nerd Fonts', path: 'theming/nerd-fonts/index.md', slug: 'theming/nerd-fonts' },
+      { id: 17, title: 'Color Schemes', path: 'theming/color-schemes/index.md', slug: 'theming/color-schemes' },
+      { id: 18, title: 'Theme Examples', path: 'theming/theme-examples/index.md', slug: 'theming/theme-examples' },
     ]
   },
   {
     title: 'Automation',
     items: [
-      { id: 19, title: 'Termux API', path: 'automation/termux-api/index.md' },
-      { id: 20, title: 'Cron Jobs', path: 'automation/cron-jobs/index.md' },
-      { id: 21, title: 'SSH Keys', path: 'automation/ssh-keys/index.md' },
-      { id: 22, title: 'Automation Examples', path: 'automation/automation-examples/index.md' },
+      { id: 19, title: 'Termux API', path: 'automation/termux-api/index.md', slug: 'automation/termux-api' },
+      { id: 20, title: 'Cron Jobs', path: 'automation/cron-jobs/index.md', slug: 'automation/cron-jobs' },
+      { id: 21, title: 'SSH Keys', path: 'automation/ssh-keys/index.md', slug: 'automation/ssh-keys' },
+      { id: 22, title: 'Automation Examples', path: 'automation/automation-examples/index.md', slug: 'automation/automation-examples' },
     ]
   }
 ];
@@ -51,7 +51,11 @@ const navigation = [
 const allItems = navigation.flatMap(group => group.items);
 
 export default function Home() {
-  const [selectedId, setSelectedId] = useState(0);
+  const [selectedId, setSelectedId] = useState(() => {
+    const path = window.location.pathname.replace(/^\/|\/$/g, '');
+    const found = allItems.find(item => item.slug === path);
+    return found ? found.id : 0;
+  });
   const [content, setContent] = useState('');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -62,7 +66,7 @@ export default function Home() {
     const loadContent = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch(`/${currentItem.path}`);
+        const response = await fetch(`/_content/${currentItem.path}`);
         if (response.ok) {
           const text = await response.text();
           setContent(text);
@@ -74,9 +78,24 @@ export default function Home() {
       }
       setIsLoading(false);
       window.scrollTo(0, 0);
+      
+      // Update URL without reloading
+      const url = currentItem.slug === '' ? '/' : `/${currentItem.slug}`;
+      window.history.pushState({ id: currentItem.id }, '', url);
     };
     loadContent();
   }, [selectedId]);
+
+  // Handle browser back/forward buttons
+  useEffect(() => {
+    const handlePopState = (event: PopStateEvent) => {
+      if (event.state && typeof event.state.id === 'number') {
+        setSelectedId(event.state.id);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   const handleContact = () => {
     const num = "255796339436";
@@ -86,7 +105,6 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Header */}
       <header className="doc-header">
         <div className="flex h-16 items-center justify-between px-6">
           <div className="flex items-center gap-4">
@@ -116,7 +134,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Sidebar Overlay */}
       {isSidebarOpen && (
         <div 
           className="fixed inset-0 z-10 bg-slate-900/20 backdrop-blur-sm lg:hidden"
@@ -124,7 +141,6 @@ export default function Home() {
         />
       )}
 
-      {/* Sidebar */}
       <aside className={`doc-sidebar ${isSidebarOpen ? 'translate-x-0 block bg-white' : '-translate-x-full lg:translate-x-0'}`}>
         <nav className="space-y-8">
           {navigation.map((group) => (
@@ -154,7 +170,6 @@ export default function Home() {
         </nav>
       </aside>
 
-      {/* Main Content */}
       <main className="doc-main">
         <div className="doc-content">
           {isLoading ? (
@@ -167,7 +182,6 @@ export default function Home() {
                 <Streamdown>{content}</Streamdown>
               </article>
 
-              {/* Navigation Footer */}
               <div className="mt-20 flex items-center justify-between border-t border-slate-200 pt-8">
                 {selectedId > 0 ? (
                   <button
@@ -192,7 +206,6 @@ export default function Home() {
           )}
         </div>
 
-        {/* Footer */}
         <footer className="border-t border-slate-200 bg-slate-50 py-12 px-6">
           <div className="max-w-3xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div>
